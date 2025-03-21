@@ -1,39 +1,74 @@
-ONLINE-LIBRARY-SYSTEM:
-This is a react based web application built using vite. It allows users to browse books, browse books by category, view details and add new books to the library.
+# ONLINE LIBRARY SYSTEM
 
-Installation & Technologies used:
-1. vite:It is a bundler.
-    =>Create a reat project with the help of vite:npm create vite@latest
-    =>Select framework and variant:React+JavaScript
-    =>Change the directory:cd MJ-LIBRARY
+Online Library System** is a React-based web application built using Vite. It allows users to browse books, filter books by category, view details, and add new books to the library.
 
-2.Installation.
-    =>npm install react-router-dom (React Router)
-    =>npm install @reduxjs/toolkit(redux toolkit)
-    =>npm install react-redux(React Redux)
-    =>npm install tailwindcss @tailwindcss/vite (tailwindcss)
-    =>npm install
-    =>npm run dev
-    This will give you link and this link will redirect you to MJ-LIBRARY.
+---
 
-3.Project:
-Components:
-    1.Navbar: It contains logo and navigation links.
-    2.BookCategory : This component allows books to be in respective category.
-    3.PopularBooks: Displays popular books based on ratings.
-    4.BookCard: It is used to display the meta content of the book.
-    5.SearchBar:Used to browsea book which is searched.
+## Installation & Technologies Used
 
-Pages:
-    1.Home: Landing page with welcome message + BookCategory component + PopularBooks component.
-    2.BrowseBooks: It displays SearchBar components + all books or(categorized books).
-    3.BookDetails : This page shows the complete details of the books.
-    4.AddBook: A page to add books to the library.
-    5.NotFound: Error page when undefined routes.
+### **1. Setup Project using Vite**
+Vite is used as the project bundler.
 
-Used redux to manage the state of the books list.
+```sh
+# Create a React project with Vite
+npm create vite@latest
 
+# Select framework and variant: React + JavaScript
 
-MY GITHUB REPOSITORY LINK:
+# Change to the project directory
+cd MJ-LIBRARY
+```
+
+### **2. Install Dependencies**
+Run the following commands to install required packages:
+
+```sh
+# Install React Router for navigation
+npm install react-router-dom
+
+# Install Redux Toolkit for state management
+npm install @reduxjs/toolkit
+
+# Install React Redux for integration with Redux
+npm install react-redux
+
+# Install Tailwind CSS for styling
+npm install tailwindcss @tailwindcss/vite
+
+# Install additional dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+After running the above command, a local development link will be provided, which redirects you to **MJ-LIBRARY**.
+
+---
+
+## Project Overview
+
+### ** Components**
+1. **Navbar** - Contains the logo and navigation links.
+2. **BookCategory** - Displays books in respective categories.
+3. **PopularBooks** - Showcases popular books based on ratings.
+4. **BookCard** - Displays the meta information of a book.
+5. **SearchBar** - Enables users to search for books.
+
+### ** Pages**
+1. **Home** - Landing page with a welcome message, BookCategory, and PopularBooks components.
+2. **BrowseBooks** - Displays all books and allows filtering by category with a search bar.
+3. **BookDetails** - Shows complete details of a book.
+4. **AddBook** - Provides a form to add new books to the library.
+5. **NotFound (404)** - Displays an error message for undefined routes.
+
+### ** State Management**
+The project uses **Redux Toolkit** to manage the state of the books list efficiently.
+
+---
+
+## 🔗 GitHub Repository
+Find the complete project code here: 
 https://github.com/MohammedJunaidKhan18/MJ-Online-Library.git
+
+---
 
