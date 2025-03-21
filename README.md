@@ -3,13 +3,9 @@ This is a react based web application built using vite. It allows users to brows
 
 Installation & Technologies used:
 1. vite:It is a bundler.
-Create a reat project with the help of vite:
-    npm create vite@latest
-Select framework and variant:
-    React
-    JavaScript
-Change the directory:
-    cd MJ-LIBRARY
+=>Create a reat project with the help of vite:npm create vite@latest
+=>Select framework and variant:React+JavaScript
+=>Change the directory:cd MJ-LIBRARY
 
 2.Installation.
 =>npm install react-router-dom (React Router)
@@ -39,6 +35,5 @@ Used redux to manage the state of the books list.
 
 
 MY GITHUB REPOSITORY LINK:
-
-
+https://github.com/MohammedJunaidKhan18/MJ-Online-Library.git
 
