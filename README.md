@@ -47,26 +47,26 @@ After running the above command, a local development link will be provided, whic
 
 ## Project Overview
 
-### ** Components**
+###  Components
 1. **Navbar** - Contains the logo and navigation links.
 2. **BookCategory** - Displays books in respective categories.
 3. **PopularBooks** - Showcases popular books based on ratings.
 4. **BookCard** - Displays the meta information of a book.
 5. **SearchBar** - Enables users to search for books.
 
-### ** Pages**
+###  Pages
 1. **Home** - Landing page with a welcome message, BookCategory, and PopularBooks components.
 2. **BrowseBooks** - Displays all books and allows filtering by category with a search bar.
 3. **BookDetails** - Shows complete details of a book.
 4. **AddBook** - Provides a form to add new books to the library.
 5. **NotFound (404)** - Displays an error message for undefined routes.
 
-### ** State Management**
+###  State Management
 The project uses **Redux Toolkit** to manage the state of the books list efficiently.
 
 ---
 
-## 🔗 GitHub Repository
+##  GitHub Repository
 Find the complete project code here: 
 https://github.com/MohammedJunaidKhan18/MJ-Online-Library.git
 
